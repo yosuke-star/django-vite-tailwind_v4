@@ -1,0 +1,17 @@
+FROM node:20
+
+# 作業ディレクトリをコンテナ内で作成
+WORKDIR /app
+
+# パッケージだけ先にコピーして依存解決（キャッシュ効かせる）
+COPY frontend/package*.json ./
+RUN npm install
+
+# アプリ全体をコピー
+COPY frontend .
+
+# Viteの開発サーバーポート
+EXPOSE 5173
+
+# 外部アクセスのために必要
+ENV HOST=0.0.0.0

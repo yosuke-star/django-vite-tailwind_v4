@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.env
+*.env.*
+
+# Virtualenv
+venv/
+env/
+.venv/
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Django
+db.sqlite3
+/media/
+/backend/staticfiles/
+/static/
+
+# Vite (ビルド成果物)
+frontend/dist/
+frontend/node_modules/
+frontend/.vite/
+
+# npm
+package-lock.json
+npm-debug.log*
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Production builds (Vite output dir if mapped)
+backend/static/assets/
+
+# Coverage/test reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# Migrations (optional: keep if tracked)
+**/migrations/*.pyc
+**/migrations/__pycache__/

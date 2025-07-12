@@ -1,0 +1,21 @@
+<!-- backend/templates/base.html など -->
+{% load django_vite %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>テスト</title>
+    {% vite_hmr_client %} {% vite_asset 'js/main.js' %}
+  </head>
+  <body>
+    <h1 class="text-red-500">Hello TailwindCSS</h1>
+    <div class="bg-sky-50">
+      <div class="flex">
+        <div class="p-3">01</div>
+        <div class="p-3">02</div>
+        <div class="p-5">03</div>
+        <div class="bg-red-100 p-3">03</div>
+      </div>
+    </div>
+    <h2>good</h2>
+  </body>
+</html>
