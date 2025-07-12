@@ -1,4 +1,4 @@
-# django-vite-bootstrap
+# Django-Vite-TailwindCSS Project 🚀
 
 ### .env ファイルについて
 
