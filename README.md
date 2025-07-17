@@ -1,4 +1,5 @@
 # Django-Vite-TailwindCSS Project 🚀
+Dockerを用いて、Django, Vite, TailwindCSSが動作するプロジェクトをリリースしました。
 
 ### .env ファイルについて
 
