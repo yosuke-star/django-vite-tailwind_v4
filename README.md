@@ -1,11 +1,13 @@
 # Django-Vite-TailwindCSS Project 🚀
-Dockerを用いて、Django, Vite, TailwindCSSが動作するプロジェクトをリリースしました。
+Dockerを用いて、Django, Vite, TailwindCSSが動作するプロジェクトをリリースしました 🐳 <br>
+I released a project that runs Django, Vite, and TailwindCSS using Docker 🐳
 
 
-### .env ファイルについて
+### .env ファイルについて Regarding the .env file:
 
-PostgreSQL を想定しています。
-.env ファイルに以下それぞれのご自身の環境変数を設定してください🙌
+PostgreSQL を想定しています。<br>
+`.env`  ファイルに以下それぞれのご自身の環境変数を設定してください 🙌<br>
+Please set the following environment variables in your own `.env` file, assuming you're using PostgreSQL  🙌
 
 ```
 - POSTGRES_DB=<your_db_name>
